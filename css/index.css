@@ -1,0 +1,117 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+    background-color: #d5deee;
+    color: #e6ac00;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body
+{
+    background-image:url("../img/INX07s.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    section
+    {
+        width: 70%; height: 70%;
+        
+        border:solid 0.7em #006b4f;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        a 
+        {
+        
+            text-decoration: none;
+            color: #006b4f;
+            
+            text-align: center;
+            
+            
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+            #p5
+            {
+                font-family: 'Raleway', sans-serif;
+                font-size: 4em;
+                margin: 0; padding: 0;
+                color: #cc9900;
+            }
+         
+                
+            #p3
+            {
+                font-family: 'Archivo Black', sans-serif;
+                font-size: 6.4em;
+                margin: 0; padding: 0;
+                color: #cc9900;
+            }
+              
+              a:hover
+              {
+              color: #59233a;
+              }
+              
+
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Limelight', cursive;
+*/
+
+
+ @media only screen and (max-width: 1000px)
+            
+            {
+                 
+               nav
+               {
+                height: 10%;
+                box-sizing: border-box; 
+                padding-right: 0;
+                display: flex;
+                justify-content:center;
+                padding-bottom: 5%;
+                padding-top: 5%;
+               }
+   
+                section 
+                {
+                    display: block;
+                   
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+               
+                    width: 70%;
+                    border:solid 0.3em #006b4f;
+                    
+                }
+                
+            #p5
+            {
+                font-size: 1.2em;
+                
+            }
+         
+                
+            #p3
+            {
+                font-size: 1.9em;
+            }
+                }
